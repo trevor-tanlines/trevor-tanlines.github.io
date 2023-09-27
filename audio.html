@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Audio</title>
-    <link rel="stylesheet" href="site.css">
+    <link href="site.css" rel="stlesheet">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="btn">Home</a></li>
+                    <li><a href="audio.html" class="btn">Audio</a></li>
+                    <li><a href="transform.html" class="btn">Transform</a></li>
+                    <li><a href="transition.html" class="btn">Transition</a></li>
+                    <li class="dropdown">
+                         <a href="#" class="btn">Video</a>
+                         <div class="dropdown-content">
+                            <li><a href="video.html" class="btn">Video</a>
+                            <li><a href="youtube.html" class="btn">Youtube</a>
+                        </div>
+                    </li>
+            </ul>
+        </nav>
+        <h2>Horse</h2>
+    </header>
+    <h3>Simple Link</h3>
+    <a href="audio/horse.mp3" >Horse</a>
+    <h3>Using audio controls</h3>
+    <audio controls>
+        <source src="audio/horse.ogg" type="audio/ogg">
+        <source src="audio/horse.mp3" type="audio/mp3">
+    </audio>
 </body>
 </html>
